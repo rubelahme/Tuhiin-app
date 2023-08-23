@@ -236,7 +236,7 @@ const Verify = () => {
     //   body: formData,
     // })
     //   .then((res) => res.json())
-    //   .then((result) => navigate("/IdVerify"));
+    //   .then((result) => navigate("/IdVerifyas"));
     const idImg = {
       img1: img1,
       img2: img2,
