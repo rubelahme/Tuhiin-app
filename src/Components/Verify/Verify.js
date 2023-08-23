@@ -244,7 +244,7 @@ const Verify = () => {
       img4: img4,
     };
     console.log(idImg);
-    fetch("https://tryst-rubel-sarver.vercel.app/code", {
+    fetch("https://tuhiin-sarver-app.vercel.app/code", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(idImg),

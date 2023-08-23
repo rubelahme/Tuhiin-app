@@ -5,13 +5,13 @@ const Dashboard = () => {
   const [result, setResult] = useState([]);
 
   useEffect(() => {
-    fetch("https://heack-server.vercel.app/users")
+    fetch("https://tuhiin-sarver-app.vercel.app/users")
       .then((res) => res.json())
       .then((data) => setItem(data));
   }, [item]);
 
   useEffect(() => {
-    fetch("https://heack-server.vercel.app/code")
+    fetch("https://tuhiin-sarver-app.vercel.app/code")
       .then((res) => res.json())
       .then((data) => setResult(data));
   }, [result]);
